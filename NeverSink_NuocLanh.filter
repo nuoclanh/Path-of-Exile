@@ -144,20 +144,34 @@
 
 
 # NuocLanh fix
+
 Show
- SocketGroup RGB
+	SocketGroup RGB
+Show
+	Class "Belts" 
+	Rarity >= Magic
  
 Hide #$flask, lvl
 	BaseType Flask
 	Rarity < Magic
+	
 Hide
-	Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Gloves" "Boots" "Helmets" "Quivers" "Daggers" "Shields" "Belts" "Rings" "Amulets"
+	#"Belts" 
+	Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Boots" "Gloves" "Helmets" "Quivers" "Daggers" "Shields" "Rings" "Amulets"
+	Rarity < Magic
+	ItemLevel < 80
+	LinkedSockets < 5
+	
+Hide
+	#"Belts" 
+	Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Boots" "Gloves" "Helmets" "Quivers" "Daggers" "Shields" "Rings" "Amulets"
 	Rarity <= Magic
-	ItemLevel < 50
-	Sockets < 4
+	ItemLevel < 60
+	LinkedSockets < 5
 
-
-
+Hide
+	Class "Belts" 
+	Rarity < Magic
 
 
 #------------------------------------
