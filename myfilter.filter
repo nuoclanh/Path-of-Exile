@@ -1,0 +1,20 @@
+Show
+ Class Currency
+Show
+ Class Gem
+ 
+Show
+ Class Maps 
+ 
+Show
+ BaseType "Flask"
+ Rarity Magic
+ 
+Show
+ SocketGroup RGB
+ 
+Show 
+ Sockets = 6
+ 
+Hide
+ Rarity Normal Magic
