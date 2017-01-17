@@ -158,13 +158,6 @@ Hide #$flask, lvl
 Hide
 	#"Belts" 
 	Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Boots" "Gloves" "Helmets" "Quivers" "Daggers" "Shields" "Rings" "Amulets"
-	Rarity < Magic
-	ItemLevel < 80
-	LinkedSockets < 5
-	
-Hide
-	#"Belts" 
-	Class "Two Hand" "Bows" "One Hand" "Wand" "Sceptre" "Staves" "Claws" "Body Armour" "Boots" "Gloves" "Helmets" "Quivers" "Daggers" "Shields" "Rings" "Amulets"
 	Rarity <= Magic
 	ItemLevel < 60
 	LinkedSockets < 5
